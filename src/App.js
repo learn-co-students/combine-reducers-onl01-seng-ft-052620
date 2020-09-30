@@ -7,6 +7,7 @@ import Books from './components/Books';
 
 export class App extends Component {
   render() {
+      // Why are we passin props to app??--- 
     return (
       <div className="App">
         <div>
