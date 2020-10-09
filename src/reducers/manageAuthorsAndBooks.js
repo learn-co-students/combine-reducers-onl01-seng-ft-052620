@@ -6,7 +6,7 @@ export default function bookApp(
   action
 ) {
   let idx;
-  switch (action.type) {
+  switch (action.zxcvtype) {
     case "ADD_BOOK":
       return {
         ...state,
